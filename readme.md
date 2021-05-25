@@ -1,12 +1,14 @@
 # electron-mksnapshot-example
 
+## What is this
+
 A minimal electron setup in order to generate an application practically
 self-contained inside a snapshot
 
 - Electron 12
 - OSX tested, WIN / LINUX may need to adjust the paths
 
-## Instructions:
+# Instructions:
 
 ### Install deps
 
@@ -17,11 +19,13 @@ npm install
 
 ### Generate Snapshot
 
-Only snapshot-osx-intel is guaranteed to work. Rest of script may have glitches in the paths.
+Only snapshot-osx-intel is guaranteed to work. Rest of archs may have glitches in the paths, could not test them.
 Feel free to correct [the script](tool/mksnapshot.sh) and create a PR. 
 
-Also, remember snapshot_blob.bin is also arch dependent although it is generated always
-with the same name
+Also, remember ```snapshot_blob.bin``` is also arch dependent although it is generated always
+with the same name AND has to have this name. So you will need appropriate magic on your publish scripts to install
+the specific arch binaries.
+
 
 ```
 npm run snapshot-osx-intel
