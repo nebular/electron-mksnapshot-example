@@ -29,10 +29,23 @@ npm run snapshot-linux
 
 ```
 
+
 ### Run application
 ```
 npm start
 ```
+
+
+### Also: Test Snapshot Will work
+
+This will print verbose errors in the JS file
+
+
+```
+./tool/test-snapshot.sh snapshot.src/index.js
+
+```
+
 
 ## Structure
 
