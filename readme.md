@@ -17,8 +17,10 @@ npm install
 
 ### Generate Snapshot
 
-Only snapshot-osx-intel is guaranteed to work. Others may have glitches in the paths.
-Also, remember snapshot_blob.bin is also arch dependent althoug it is generated always
+Only snapshot-osx-intel is guaranteed to work. Rest of script may have glitches in the paths.
+Feel free to correct [the script](tool/mksnapshot.sh) and create a PR. 
+
+Also, remember snapshot_blob.bin is also arch dependent although it is generated always
 with the same name
 
 ```
