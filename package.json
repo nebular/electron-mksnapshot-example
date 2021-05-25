@@ -1,0 +1,19 @@
+{
+  "name": "electron-mksnapshot-example",
+  "version": "12.0.0",
+  "description": "Minimal configuration to create a snaphot binary with lots of stuff inside and keep out amateur hackers from leeching your code :)",
+  "main": "stub/main.js",
+  "scripts": {
+    "snapshot-osx-intel": "tool/mksnapshot.sh osx x86_64",
+    "snapshot-osx-arm64": "tool/mksnapshot.sh osx arm64",
+    "snapshot-win": "tool/mksnapshot.sh win x86_64",
+    "snapshot-linux": "tool/mksnapshot.sh linux x86_64",
+    "start": "electron stub/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "12.0.0",
+    "electron-mksnapshot": "^12.0.0"
+  }
+}
