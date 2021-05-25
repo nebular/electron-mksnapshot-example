@@ -3,7 +3,7 @@
 ## What is this
 
 A minimal electron setup in order to generate an application practically
-self-contained inside a snapshot
+self-contained inside a snapshot. It is based on [this blog post](https://peterforgacs.github.io/2018/09/12/How-to-create-a-V8-snapshot-of-your-javascript-file/), but this example is simpler and updated to work on Electron 12, and uses ```mksnapshot.js``` instead of ```mksnapshot```
 
 - Electron 12
 - OSX tested, WIN / LINUX may need to adjust the paths
