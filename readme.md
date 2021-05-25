@@ -42,9 +42,9 @@ npm start
 ```
 
 
-### Also: Test Snapshot Will work
+### Also: Test that Snapshot Will work
 
-This will print verbose errors in the JS file
+This will print verbose errors in the JS file, after executing your code in a blank VM. It is useful to debug a snapshot that fails to boot.
 
 
 ```
