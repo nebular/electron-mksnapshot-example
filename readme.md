@@ -72,7 +72,7 @@ This will print verbose errors in the JS file
 
 # Freeware
 
-(C) 2021 Rodolfo Lopez / [Nebular Streams](nebular.tv)
+(C) 2021 Rodolfo Lopez / [Nebular Streams](https://nebular.tv)
 Freeware
 
 Thanks a lot to [@jkleinsc](https://github.com/jkleinsc) for his comprehensive help to get this working.
